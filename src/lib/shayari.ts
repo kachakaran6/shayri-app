@@ -202,7 +202,7 @@ export const shayariList: Shayari[] = [
   },
   {
     id: 50,
-    text: "Badla badla sa hai mizaj kya baat ho gayi?, ki badla badla sa hai mizaj kya baat ho gayi, Sikayat humse hai ya kisi aur se mulakat ho gayi?......",
+    text: "Badla badla sa hai mizaj kya baat ho gayi, ki badla badla sa hai mizaj kya baat ho gayi, Sikayat humse hai ya kisi aur se mulakat ho gayi?......",
   },
   {
     id: 51,
