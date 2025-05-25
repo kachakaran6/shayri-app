@@ -1,14 +1,19 @@
-// components/ShayariCard.tsx
-
 type ShayariCardProps = {
   text: string;
 };
 
 export default function ShayariCard({ text }: ShayariCardProps) {
+  const formattedText = text.split(",").map((line, index) => (
+    <span key={index}>
+      {line.trim()}
+      <br />
+    </span>
+  ));
+
   return (
-    <div className="bg-white dark:bg-gray-700 shadow-xl rounded-2xl p-6 max-w-xl mx-auto text-center transition-all duration-500 ease-in-out">
+    <div className="bg-white dark:bg-gray-800 p-4 rounded-xl shadow-md">
       <p className="text-xl font-serif text-gray-800 dark:text-gray-100 italic">
-        {text}
+        {formattedText}
       </p>
     </div>
   );

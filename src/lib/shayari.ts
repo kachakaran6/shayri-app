@@ -6,31 +6,31 @@ export type Shayari = {
 export const shayariList: Shayari[] = [
   {
     id: 1,
-    text: "Teri Aankhon Ki Namkeen Mastiyan, Teri Hansi Ki Be Parwaah Gustakhiyan, Teri Zulfon Ki Lehrati Angdaiyaan, Nahi Bhoolunga Main… Jab Tak Hai Jaan, Jab Tak Hai Jaan\n\nBaarishon Mein Bedhadak Tere Nachne Se, Baat Baat Pe Tere Bewajah Ruthne Se, Choti Choti Teri Bachkaani Badmashiyon Se, Mohabbath Karoonga Main… Jab Tak Hai Jaan, Jab Tak Hai Jaan",
+    text: "Teri Aankhon Ki Namkeen Mastiyan, Teri Hansi Ki Be Parwaah Gustakhiyan, Teri Zulfon Ki Lehrati Angdaiyaan, Nahi Bhoolunga Main, Jab Tak Hai Jaan, Jab Tak Hai Jaan\n\nBaarishon Mein Bedhadak Tere Nachne Se, Baat Baat Pe Tere Bewajah Ruthne Se, Choti Choti Teri Bachkaani Badmashiyon Se, Mohabbath Karoonga Main, Jab Tak Hai Jaan, Jab Tak Hai Jaan",
   },
   {
     id: 2,
-    text: "Humse door jaoge kaise, dil se hum mein bhulaoge kaise… hum woh khushboo hai joh saanson mein bastein hai, khud ki saason ko rok paoge kaise",
+    text: "Humse door jaoge kaise, dil se hum mein bhulaoge kaise, hum woh khushboo hai joh saanson mein bastein hai, khud ki saason ko rok paoge kaise",
   },
   {
     id: 3,
-    text: "Bekhudi ki zindagi hum jiya nahi karte … jaam doosron se cheenkar hum piya nahi karte … unko mohabbat hai toh aakar izhaar karen … peecha hum bhi kisika kiya nahi karte",
+    text: "Bekhudi ki zindagi hum jiya nahi karte,jaam doosron se cheenkar hum piya nahi karte,unko mohabbat hai toh aakar izhaar karen,peecha hum bhi kisika kiya nahi karte...",
   },
   {
     id: 4,
-    text: "Aag suraj mein hoti hai, jalna zameen ko padta hai … mohabbat nigahein karti hai, tadapna dil ko padta hai",
+    text: "Aag suraj mein hoti hai, jalna zameen ko padta hai , mohabbat nigahein karti hai, tadapna dil ko padta hai",
   },
   {
     id: 5,
-    text: "Bhool karke agar humse koi bhool hui ho, toh bhool samajhkar bhula dena … lekin bhulana sirf bhool ko, galati se bhi hum mein na bhula dena",
+    text: "Bhool karke agar humse koi bhool hui ho, toh bhool samajhkar bhula dena , lekin bhulana sirf bhool ko, galati se bhi hum mein na bhula dena",
   },
   {
     id: 6,
-    text: "Pani se pyaas nah bhuji toh maikhane ki taraf chal nikla … soocha shikayat karoon teri khuda se … par khuda bhi tera aashiq nikla",
+    text: "Pani se pyaas nah bhuji toh maikhane ki taraf chal nikla , soocha shikayat karoon teri khuda se , par khuda bhi tera aashiq nikla",
   },
   {
     id: 7,
-    text: "Mohabbat Rang Lati Hai Jab Dil Se Dil Milte Hai … Mushkil Toh Yeh Hai, Ki Dil Badi Mushkil Se Milte Hai.",
+    text: "Mohabbat Rang Lati Hai Jab Dil Se Dil Milte Hai , Mushkil Toh Yeh Hai, Ki Dil Badi Mushkil Se Milte Hai.",
   },
   {
     id: 8,
