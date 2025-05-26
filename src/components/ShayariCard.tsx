@@ -5,6 +5,7 @@ import { Feather } from "lucide-react"; // Example icon
 
 type ShayariCardProps = {
   text: string;
+  customTextClass?: string;
 };
 
 export default function ShayariCard({ text }: ShayariCardProps) {
