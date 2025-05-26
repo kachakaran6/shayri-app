@@ -1,3 +1,7 @@
+import { motion } from "framer-motion";
+import { Dancing_Script } from "next/font/google";
+const dancing = Dancing_Script({ subsets: ["latin"], weight: "400" });
+
 type ShayariCardProps = {
   text: string;
 };
@@ -11,10 +15,25 @@ export default function ShayariCard({ text }: ShayariCardProps) {
   ));
 
   return (
-    <div className="bg-white dark:bg-gray-800 p-4 rounded-xl shadow-md">
-      <p className="text-xl font-serif text-gray-800 dark:text-gray-100 italic">
+    <motion.div
+      initial={{ opacity: 0, y: 30 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+      className="relative bg-white/80 dark:bg-gray-900/70 p-6 sm:p-8 rounded-2xl shadow-2xl backdrop-blur-sm max-w-xl w-full"
+    >
+      <div className="absolute top-4 left-4 text-5xl text-pink-400 font-serif select-none">
+        “
+      </div>
+
+      <p
+        className={`${dancing.className}text-2xl sm:text-3xl font-serif text-center text-gray-800 dark:text-gray-100 italic leading-relaxed z-10`}
+      >
         {formattedText}
       </p>
-    </div>
+
+      <div className="absolute bottom-4 right-4 text-5xl text-pink-400 font-serif select-none rotate-180">
+        “
+      </div>
+    </motion.div>
   );
 }
