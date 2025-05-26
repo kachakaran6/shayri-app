@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Dancing_Script } from "next/font/google";
 const dancing = Dancing_Script({ subsets: ["latin"], weight: "400" });
+import { Feather } from "lucide-react"; // Example icon
 
 type ShayariCardProps = {
   text: string;
@@ -8,7 +9,7 @@ type ShayariCardProps = {
 
 export default function ShayariCard({ text }: ShayariCardProps) {
   const formattedText = text.split(",").map((line, index) => (
-    <span key={index}>
+    <span key={index} className="block my-2 text-center">
       {line.trim()}
       <br />
     </span>
@@ -24,6 +25,8 @@ export default function ShayariCard({ text }: ShayariCardProps) {
       <div className="absolute top-4 left-4 text-5xl text-pink-400 font-serif select-none">
         “
       </div>
+
+      <Feather className="absolute top-2 right-2 text-pink-300 opacity-20" />
 
       <p
         className={`${dancing.className}text-2xl sm:text-3xl font-serif text-center text-gray-800 dark:text-gray-100 italic leading-relaxed z-10`}
